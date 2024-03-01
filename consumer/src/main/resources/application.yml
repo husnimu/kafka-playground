@@ -1,0 +1,9 @@
+server:
+  port: 3001
+spring:
+  application:
+    name: app-consumer
+  profiles:
+    active: dev
+  kafka:
+    bootstrap-servers: localhost:29092

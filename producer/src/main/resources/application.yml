@@ -1,0 +1,9 @@
+server:
+  port: 3000
+spring:
+  application:
+    name: app-producer
+  profiles:
+    active: dev
+  kafka:
+    bootstrap-servers: localhost:29092
